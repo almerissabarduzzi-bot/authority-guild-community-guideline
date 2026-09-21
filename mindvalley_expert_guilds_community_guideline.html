@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community Guidelines — Mindvalley Expert Guilds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --void:#0a1727;
+    --panel:#101f33;
+    --ink:#eef2f6;
+    --mist:#8b96a8;
+    --line: rgba(255,255,255,0.10);
+    --glass-b:#3f8fd9;
+    --glass-c:#bfe6ff;
+    --display:'Manrope', sans-serif;
+    --body:'Inter', sans-serif;
+    --measure: 640px;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0;
+    padding:0;
+    background: var(--void);
+    color: var(--ink);
+    font-family: var(--body);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .page-glow{
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    background:
+      radial-gradient(55% 38% at 12% -5%, rgba(63,143,217,0.28), transparent 60%),
+      radial-gradient(45% 32% at 92% 10%, rgba(191,230,255,0.14), transparent 65%),
+      radial-gradient(65% 45% at 50% 105%, rgba(18,58,94,0.55), transparent 70%),
+      var(--void);
+  }
+
+  :focus-visible{
+    outline: 2px solid var(--glass-c);
+    outline-offset: 3px;
+  }
+
+  .wrap{
+    max-width: var(--measure);
+    margin:0 auto;
+    padding: 56px 24px 72px;
+  }
+
+  .wordmark-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 40px;
+  }
+
+  .wordmark{
+    font-family: var(--display);
+    font-weight:700;
+    font-size:13px;
+    letter-spacing: 0.06em;
+  }
+
+  .chapter-tag{
+    font-family: var(--display);
+    font-weight:500;
+    font-size:11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--mist);
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 100px;
+  }
+
+  h1{
+    font-family: var(--display);
+    font-weight:700;
+    font-size: clamp(24px, 4vw, 32px);
+    margin: 0 0 14px;
+  }
+
+  p.lede{
+    max-width: 560px;
+    color: var(--mist);
+    font-size: 16px;
+    margin: 0;
+  }
+
+  section{
+    padding: 40px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  section:last-of-type{
+    border-bottom:none;
+  }
+
+  h2{
+    font-family: var(--display);
+    font-weight:700;
+    font-size: 19px;
+    margin: 0 0 14px;
+  }
+
+  p{
+    margin: 0 0 12px;
+  }
+
+  .muted{
+    color: var(--mist);
+  }
+
+  .rule{
+    display:flex;
+    gap: 16px;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .rule:first-child{ border-top:none; }
+
+  .rule strong{
+    flex: 0 0 170px;
+    font-family: var(--display);
+    font-weight:700;
+    font-size: 14px;
+    color: var(--glass-c);
+  }
+
+  .rule span{
+    color: var(--mist);
+    font-size: 14.5px;
+  }
+
+  .callout{
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 16px 18px;
+    margin-top: 8px;
+  }
+
+  .callout p{
+    margin:0;
+    font-size: 14.5px;
+    color: var(--mist);
+  }
+
+  .callout strong{
+    color: var(--ink);
+  }
+
+  .signoff{
+    padding-top: 40px;
+  }
+
+  .signoff p{
+    color: var(--mist);
+    font-size:14.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="wordmark-row">
+      <div class="wordmark">MINDVALLEY EXPERT GUILDS</div>
+      <div class="chapter-tag">Community Guidelines · All Chapters</div>
+    </div>
+
+    <h1>Community Guidelines</h1>
+    <p class="lede">This network is home to every Mindvalley Expert Guild. Each one runs on the same idea: members are the content, and what you get out of the room depends on what you and everyone else puts into it. These guidelines apply across every Chapter.</p>
+
+    <section>
+      <h2>What this room asks of you</h2>
+      <div class="rule">
+        <strong>Post your share</strong>
+        <span>On your assigned date, every month. It does not have to be polished, it has to be real: what you built, what worked, what you are stuck on.</span>
+      </div>
+      <div class="rule">
+        <strong>Show up</strong>
+        <span>Attend the calls that come with your Guild, and engage while you are there.</span>
+      </div>
+      <div class="rule">
+        <strong>Give as well as take</strong>
+        <span>Reply to other members' shares, offer feedback when asked, and help the room the way you want the room to help you.</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Being part of this community</h2>
+      <p class="muted">These are Mindvalley's standing community rules, they apply here the same as anywhere else on the platform.</p>
+      <div class="rule">
+        <strong>Be respectful</strong>
+        <span>Treat each other with kindness and empathy, regardless of differing opinions or backgrounds. Ask before you assume, not everyone wants a hug, and not every share is an invitation for unsolicited advice.</span>
+      </div>
+      <div class="rule">
+        <strong>No harassment</strong>
+        <span>No threats, discrimination, or derogatory remarks about anyone's race, gender, sexuality, religion, or other personal characteristics.</span>
+      </div>
+      <div class="rule">
+        <strong>No unsolicited pitching</strong>
+        <span>Talking about your own business is part of being here, this room runs on real work. Turning a share or a reply into a sales pitch is not. If someone's interested in what you do, they will reach out.</span>
+      </div>
+      <div class="rule">
+        <strong>No illegal activity</strong>
+        <span>Nothing that violates the law or basic ethical standards, wherever you are joining from.</span>
+      </div>
+      <div class="rule">
+        <strong>Maintain privacy</strong>
+        <span>What gets shared in a Share or on a call stays there. Talk about what you learned all you want, just leave out names and identifying details unless you have permission.</span>
+      </div>
+      <div class="rule">
+        <strong>Keep feedback constructive</strong>
+        <span>Feedback should help, not just criticize. This also is not a space to coach someone who did not ask for it, if you want to offer support, ask first and respect a no.</span>
+      </div>
+      <div class="rule">
+        <strong>Be open minded</strong>
+        <span>People share their own frameworks, results, and positions here. Disagreement is fine, mockery or dismissiveness is not.</span>
+      </div>
+      <div class="rule">
+        <strong>Keep some topics out</strong>
+        <span>Politics, religion, and other identity based debates stay out of the room, unless a call is explicitly framed around that topic. If one comes up unplanned, the Chair will redirect it.</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>If engagement slips</h2>
+      <p>Missing shares or calls does not go unnoticed. Your Chair and Community Admin will reach out if you go quiet. Repeated disengagement is handled under the terms you agreed to when you joined, up to and including removal without refund.</p>
+      <p class="muted">The full Code of Conduct and membership terms sit in your signed agreement. This page is the plain language version of the same expectations.</p>
+    </section>
+
+    <section>
+      <h2>A safe room</h2>
+      <p>Treat other members the way you would want to be treated in a room where everyone is exposing real, unfinished work. No harassment, no discrimination, no using someone else's vulnerability against them.</p>
+      <div class="callout">
+        <p><strong>If something feels off,</strong> tell your Chair or Community Admin directly. That is what they are there for.</p>
+      </div>
+    </section>
+
+    <div class="signoff">
+      <p>Any of this unclear? Your Community Admin is one message away, right in your Chapter's group.</p>
+    </div>
+  </div>
+</body>
+</html>
